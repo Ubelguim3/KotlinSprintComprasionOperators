@@ -4,5 +4,5 @@ fun task3() {
     val humidity = 20
     val timeOfYear = "Зима"
     println("Благоприятны ли сейчас условия для роста бобовых: " +
-            "${weatherToday && tentStatus &&  humidity == 20 && timeOfYear != "Зима"}")
+            "${weatherToday && tentStatus &&  humidity == 20 && timeOfYear != "Зима" }")
 }
