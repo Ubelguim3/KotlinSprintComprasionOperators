@@ -1,5 +1,7 @@
 package org.example
 
-fun main() {
+import task3
 
+fun main() {
+task3()
 }
