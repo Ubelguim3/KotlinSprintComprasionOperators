@@ -6,3 +6,7 @@ fun task3() {
     println("Благоприятны ли сейчас условия для роста бобовых: " +
             "${weatherToday && tentStatus &&  humidity == 20 && timeOfYear != "Зима" }")
 }
+
+fun main() {
+    task3()
+}
