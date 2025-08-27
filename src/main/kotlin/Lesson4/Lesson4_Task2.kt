@@ -8,3 +8,7 @@ fun task2() {
     capacity = 100
     println("Груз с весом $weight кг и объемом $capacity л соответствует категории 'Average': ${((weight > 35) and (weight <= 100))  && (capacity < 100)}")
 }
+
+fun main() {
+    task2()
+}
